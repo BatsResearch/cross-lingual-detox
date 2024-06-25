@@ -80,12 +80,12 @@ python3 xg/training/merge_peft.py \
 ```
 
 We have uploaded our trained models to HuggingFace Hub:
-- [mGPT](https://huggingface.co/jmodel/mGPT-reprod-final)
-- [Bloom-1b7](https://huggingface.co/jmodel/bloom-1b7-detox)
-- [Bloom-7b1](https://huggingface.co/jmodel/bloom-7b1-detox-qlora)
-- [Llama2](https://huggingface.co/jmodel/Llama-2-7b-detox-qlora)
-- [Llama3](https://huggingface.co/jmodel/Llama-3-8b-detox-qlora)
-- [Aya-23](https://huggingface.co/jmodel/aya-23-8B-detox-qlora)
+- [mGPT](https://huggingface.co/BatsResearch/mGPT-detox)
+- [Bloom-1b7](https://huggingface.co/BatsResearch/bloom-1b7-detox)
+- [Bloom-7b1](https://huggingface.co/BatsResearch/bloom-7b1-detox-qlora)
+- [Llama2](https://huggingface.co/BatsResearch/llama2-7b-detox-qlora)
+- [Llama3](https://huggingface.co/BatsResearch/llama3-8b-detox-qlora)
+- [Aya-23](https://huggingface.co/BatsResearch/aya-23-8b-detox-qlora)
 
 #### 2. Generation
 
