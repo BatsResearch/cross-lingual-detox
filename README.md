@@ -2,7 +2,7 @@
 
 <p align="center">
     <a href="https://arxiv.org/abs/2406.16235"><img src="https://badgen.net/static/arxiv/2406.16235/blue" /></a>
-    <a href="https://x.com/yong_zhengxin/status/xxxxxxxxxx"><img src="https://badgen.net/static/Twitter/summary/blue?icon=twitter" /></a>
+    <a href="https://x.com/yong_zhengxin/status/1805616252490236235"><img src="https://badgen.net/static/Twitter/summary/blue?icon=twitter" /></a>
 </p>
 
 🔥 **Cross-lingual safety generalization**: This is the first work to demonstrate preference tuning for toxicity mitigation can generalize cross-lingually in a zero-shot manner. We evaluated on 17 different languages and different LLMs (such as BLOOM, Llama3, and Aya-23), all of which shows cross-lingual detoxification after English DPO preference tuning.
