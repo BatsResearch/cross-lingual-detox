@@ -1,7 +1,7 @@
 # Preference Tuning For Toxicity Mitigation Generalizes Across Languages
 
 <p align="center">
-    <a href="https://arxiv.org/abs/xxxx.xxxxx"><img src="https://badgen.net/static/arxiv/xxxx.xxxxxx/blue" /></a>
+    <a href="https://arxiv.org/abs/2406.16235"><img src="https://badgen.net/static/arxiv/2406.16235/blue" /></a>
     <a href="https://x.com/yong_zhengxin/status/xxxxxxxxxx"><img src="https://badgen.net/static/Twitter/summary/blue?icon=twitter" /></a>
 </p>
 
