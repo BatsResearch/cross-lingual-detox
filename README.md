@@ -190,13 +190,10 @@ python3 xg/retrieval/retrieval_acc_load.py \
 ---
 ### Bibtex
 ```
-@misc{li2024preferencetuningtoxicitymitigation,
-      title={Preference Tuning For Toxicity Mitigation Generalizes Across Languages}, 
-      author={Xiaochen Li and Zheng-Xin Yong and Stephen H. Bach},
-      year={2024},
-      eprint={2406.16235},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2406.16235}, 
+@article{li2024preference,
+  title={Preference Tuning For Toxicity Mitigation Generalizes Across Languages},
+  author={Li, Xiaochen and Yong, Zheng-Xin and Bach, Stephen H},
+  journal={arXiv preprint arXiv:2406.16235},
+  year={2024}
 }
 ```
