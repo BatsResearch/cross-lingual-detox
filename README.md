@@ -1,6 +1,7 @@
 # Preference Tuning For Toxicity Mitigation Generalizes Across Languages
 
 <p align="center">
+    <a href="https://arxiv.org/abs/2406.16235"><img src="https://img.shields.io/badge/EMNLP%20Findings-2024-4b44ce?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiIHdpZHRoPSIxOHB4IiBoZWlnaHQ9IjE4cHgiPjxwYXRoIGQ9Ik0xOSAzSDVjLTEuMTEgMC0yIC45LTIgMnYxNGMwIDEuMS44OSAyIDIgMmgxNGMxLjExIDAgMi0uOSAyLTJWNWMwLTEuMS0uODktMi0yLTJ6bS0yIDhoLTJ2Mmg2di0yaDJ2OGgtMnYtNmgtNFYzbDYgM3Y1aC0yVjd6TTMgN2gydjJIM1Y3em0yIDRIM3YyaDJWMTF6bS0yIDRoMnYySDN2LTJ6Ii8+PC9zdmc+" /></a>
     <a href="https://arxiv.org/abs/2406.16235"><img src="https://img.shields.io/badge/arxiv-2406.16235-b31b1b?logo=arxiv" /></a>
     <a href="https://x.com/yong_zhengxin/status/1805616252490236235"><img src="https://img.shields.io/badge/summary-000000?logo=x" /></a>
     <a href="https://huggingface.co/collections/BatsResearch/detoxified-model-667a3480eb164e5584b5f001"><img src="https://img.shields.io/badge/detoxified-model-FFD21E?logo=huggingface" /></a>
