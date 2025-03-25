@@ -156,13 +156,13 @@ python scripts/run_train_probe.py
 ```
 
 #### 2. Analyze the value vectors of model. 
-We first identify the potential sources of toxicity by selecting the top 100 value vectors based on their cosine similarities with the probe vector. Then, we collect the corresponding neuron activations averaged across the next 20 tokens generated from the English RTP-LX prompt. The value vectors are retained if their corresponding neuron activations are positive during the forward pass. We found 36 value vectors meeting these criteria, and they are stored [here](assets/actual_sources_of_toxicity.pkl). We then project them onto the vocabulary space to interpret the tokens they promote when activated. More details can be found in [this notebook](<notebooks/Interpreting Value Vectors (Table 3, 7, and 8).ipynb>).
+We first identify the potential sources of toxicity by selecting the top 100 value vectors based on their cosine similarities with the probe vector. Then, we collect the corresponding neuron activations averaged across the next 20 tokens generated from the English RTP-LX prompt. The value vectors are retained if their corresponding neuron activations are positive during the forward pass. We found 36 value vectors meeting these criteria, and they are stored [here](assets/actual_sources_of_toxicity.pkl). We then project them onto the vocabulary space to interpret the tokens they promote when activated. More details can be found in [this notebook](<notebooks/Interpreting Value Vectors.ipynb>).
 
 #### 3. Causal Intervention 
-To better understand these sub-updates, we directly intervene in their corresponding and inspect the changes they induce. We provide a minimal experiment demonstrating how such interventions are conducted in [this notebook](<notebooks/Causal Intervention (Table 4).ipynb>). The same code can be used to quantitatively understand the effect of the changes we exert on the neuron activations across all prompts from differnt langauges.
+To better understand these sub-updates, we directly intervene in their corresponding and inspect the changes they induce. We provide a minimal experiment demonstrating how such interventions are conducted in [this notebook](<notebooks/Causal Intervention.ipynb>). The same code can be used to quantitatively understand the effect of the changes we exert on the neuron activations across all prompts from differnt langauges.
 
 #### 4. Analyze neuron activation before and after DPO 
-[This script](scripts/run_collect_neuron_activations.py) can be used to collect neuron activations before and after preference tuning across different languages. We also provide the precomputed results [here](assets/neuron-activations.pkl). The reproduce Figure 3 in the paper, see [this notebook](<notebooks/Neuron Activation (Figure 3).ipynb>).
+[This script](scripts/run_collect_neuron_activations.py) can be used to collect neuron activations before and after preference tuning across different languages. We also provide the precomputed results [here](assets/neuron-activations.pkl). The reproduce Figure 3 in the paper, see [this notebook](<notebooks/Neuron Activation.ipynb>).
 
 ---
 
